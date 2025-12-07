@@ -25,8 +25,21 @@ styler::style_pkg()
 devtools::check()
 devtools::check(args = "--as-cran")
 
+rhub::rc_submit()
 
+library(rhub)
 
+## 1) Registrar el token que te llegó por email ----
+rhub::rc_new_token(
+  email = "braylinjr1511@gmail.com",
+  token = "73cf8ba4-6b7c-49e1-bfac-143b7c5612b1"
+)
+
+## 2) (Opcional) Verificar que el token quedó guardado ----
+rhub::rc_list_local_tokens()
+
+## 3) Enviar el paquete a R-hub para chequearlo ----
+rhub::rc_submit()
 
 
 
