@@ -12,5 +12,5 @@ RoxygenNote: 7.3.3
 Suggests: testthat (>= 3.0.0), tibble
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2025-12-07 20:55:30 UTC; Braylin Jimenez
+Packaged: 2025-12-07 21:17:46 UTC; Braylin Jimenez
 Author: Braylin Alexander Jiménez Reynoso [aut, cre]
